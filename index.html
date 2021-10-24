@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+
+        body {
+            margin: 0%;
+            background-image: url("backgroundImage\ \(2\).jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+
+        }
+        #contains {
+            border: 1mm rgb(12, 12, 12) solid;
+            box-shadow: black 0 0 10px;
+            text-align: center;
+            line-height: 15mm;
+            border-width: 35%;
+            margin-left: 35%;
+            margin-right: 30%;
+            margin-top: 10%;
+            
+            background-color: paleturquoise;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="contains">
+            <form>
+                <h1>Register</h1>
+                <p style="font-size: 4mm; font-style: italic;">Creat your account. it's free and only takes a minute</p>
+                 
+                <input type="text" placeholder="first name" size="12"/>
+                <input type="text" placeholder="last name"size="12"/><br>
+                <input type="email" pattern=".+@gmail.com"required placeholder="Email" size="30"/><br>
+                <input type="tel" pattern="0-9"required minlength="10" maxlength="10" placeholder="Phone number" size="30"/><br>
+                <input type="password" placeholder="password" minlength="5" maxlength="8" size="30%"/><br>
+                <input type="password" placeholder="confirm password" minlength="5" maxlength="8" size="30%"/><br>
+                <input type="checkbox"/>
+                <label>I accept the term of use and privacy policy</label><br>
+                <button style=" background-color: rgb(96, 238, 83); padding-left: 10%;padding-right: 10%; color: rgb(142, 195, 199);"><a href>Register Now</a></button>
+
+                
+                
+
+
+
+            </form>
+          
+
+        </div>
+        <div>
+            <p style="color: rgb(15, 4, 4); font-weight: bold; text-align: center;">Already have an account?<a href="">sign in</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
